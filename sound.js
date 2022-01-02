@@ -3,11 +3,11 @@ let buffers = [];
 let midiOutput;
 let isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
 
-WebMidi.enable(function (err) {
-  // console.log(WebMidi.inputs);
-  // console.log(WebMidi.outputs);
-  midiOutput = WebMidi.outputs[0];
-});
+// WebMidi.enable(function (err) {
+//   // console.log(WebMidi.inputs);
+//   // console.log(WebMidi.outputs);
+//   midiOutput = WebMidi.outputs[0];
+// });
 
 function setupSounds(){
   let samplePaths = ['sounds/hihat.wav', 'sounds/clap.wav', 'sounds/snare.wav', 

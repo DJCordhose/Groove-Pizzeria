@@ -259,6 +259,9 @@ function mousePressed() {
   testPizza2.pressed(mouseX, mouseY);
 }
 
+function touchStarted() {
+}
+
 function changeKit(kit, pizza) {
   let choice = kit.value();
   switch(choice){
